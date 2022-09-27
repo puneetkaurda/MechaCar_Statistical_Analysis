@@ -125,7 +125,7 @@ The null hypothesis is that the mean of the safety rating is zero. The alternati
 3) What statistical test would you use to test the hypothesis? And why?
 Using a multiple linear regression statistical summary would show how the variables impact the safety ratings for MechaCar and their competitors.
 
-4)What data is needed to run the statistical test?
+4) What data is needed to run the statistical test?
 A random sample of n > 30 for MechaCar and their competitor, would need to be collected including the safety ratings, highway fuel efficiency, and horsepower plus running the data through RStudio.
 
 
