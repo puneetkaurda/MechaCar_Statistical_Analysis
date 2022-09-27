@@ -1,9 +1,16 @@
 # MechaCar_Statistical_Analysis
 ## Overview
+AutosRUs' new MechaCar is "suffering from production troubles" and the company is hoping that an analytical review may help provide some insight. 
+## Purpose
+The purpose of this analysis is to:
+- discover which variables predict the MPG for vehicle prototypes;
+- collect summary stats on the PSI of suspension coils;
+- determine if manufacturing lots are statistically different from the mean population;
+- design a study to compare the MechaCar performance against vehicles from other manufacturers.
+
 
 
 ## Results:
-
 ## Linear Regression to Predict MPG
 > summary(lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD, data = mechacar_mpg_df))
 
@@ -36,9 +43,15 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 Multiple R-squared: 0.7149 which shows that model is 71% accurate.
 
 ## Summary Statistics on Suspension Coils
-# Total Summary
 
-# Lot Summary
+## Total Summary
+
+<img width="338" alt="total_summary" src="https://user-images.githubusercontent.com/107584891/192617964-1d90f88f-0f42-4849-9488-9f79ecae9803.png">
+
+## Lot Summary
+
+<img width="489" alt="lot_summary" src="https://user-images.githubusercontent.com/107584891/192617993-e1ee8ad0-e77a-4119-b5cb-8ed4e6c96fae.png">
+
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data does not meet this design specification for all manufacturing lots in total. While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot # 3 is well over the acceptable threshold i.e. 170.28.
 
